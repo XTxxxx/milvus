@@ -124,7 +124,8 @@ func (v *validateUtil) Validate(data []*schemapb.FieldData, helper *typeutil.Sch
 			if err := v.checkArrayFieldData(field, fieldSchema); err != nil {
 				return err
 			}
-
+		case schemapb.DataType_Timestamptz:
+			// TODO: Add check logic for timestamptz data
 		default:
 		}
 	}
