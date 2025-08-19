@@ -68,6 +68,7 @@ const (
 	RoundDecimalKey      = "round_decimal"
 	OffsetKey            = "offset"
 	LimitKey             = "limit"
+	TimezoneKey 				 = "timezone"
 
 	SearchIterV2Key        = "search_iter_v2"
 	SearchIterBatchSizeKey = "search_iter_batch_size"
